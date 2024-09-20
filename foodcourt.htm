@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Food Details</title>
+  </head>
+  <body>
+    <button onclick="cost+=5;console.log(`cost:$${cost}`)">Coffee</button>
+    <button onclick="cost+=3;console.log(`cost:$${cost}`)">Bagels</button>
+    <button onclick="cost+=9;console.log(`cost:$${cost}`)">Soup</button>
+    <button onclick="tax=(cost*0.1);console.log(`cost:$${cost+tax}`)">
+      Display Cost
+    </button>
+
+    <script>
+      //cost of coffee 5 cost of bagels 3 cost of soup 9
+      let cost = 0;
+      let tax = 0;
+    </script>
+  </body>
+</html>

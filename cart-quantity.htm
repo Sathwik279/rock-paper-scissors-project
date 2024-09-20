@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body style="font-family: arial; font-size: 20px; font-style: italic">
+    <p id="h1">Cart Quantity</p>
+
+    <button id="b1" onclick="console.log(`cartQuantity:${cartQuantity}`);">
+      show quantity
+    </button>
+
+    <button
+      id="b2"
+      onclick="cartQuantity=cartQuantity+1;console.log(`cartQuantity:${cartQuantity}`)">
+      add to cart
+    </button>
+
+    <button
+      id="b3"
+      onclick="cartQuantity=cartQuantity+2;console.log(`cartQuantity:${cartQuantity}`)">
+      +2
+    </button>
+
+    <button
+      id="b4"
+      onclick="cartQuantity=cartQuantity+3;console.log(`cartQuantity:${cartQuantity}`)">
+      +3
+    </button>
+
+    <button
+      id="b5"
+      onclick="cartQuantity=0;console.log(`cartQuantity:${cartQuantity}`)">
+      reset cart
+    </button>
+    <script>
+      let cartQuantity = 0;
+    </script>
+  </body>
+</html>
